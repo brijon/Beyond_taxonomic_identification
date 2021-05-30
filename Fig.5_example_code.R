@@ -4,7 +4,6 @@
 # the responses of specific OTUs to soil pH ("train" dataset), can be used to predict community structure in
 # an independent "test" dataset using only the pH data for the test dataset.
 
-# The following datasets are required:
 
 #script assumes you have the following variables in working environment
 
