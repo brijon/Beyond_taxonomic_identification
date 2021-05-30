@@ -14,7 +14,7 @@
 # train_pH : pH values for each sample in train_otu, used to buld HOF models predicting abundances of OTUs in train_otu
 
 # train_model_features: a data frame containing the pH optimum of each otu as output from the HOF modelling. Includes two 
-# columns: train_otu_name and train_OTU_pH_optimum. See XXXXXX for how this was created
+# columns: train_otu_name and train_OTU_pH_optimum. See HOF_example_code.R for how pH optimum was assigned to OTU.
 
 #===========================================================================================================================================================================================
 
@@ -25,7 +25,7 @@
 
 # train_test_otu_lookup: A data frame identifying matches between the train dataset OTUs and test dataset OTUs. 
 # 				Obtained following blast searches of the representative sequences for the test dataset against the representative 
-# 				sequences of the train datasets - as described in XXXXXXXXXX.
+# 				sequences of the train datasets - see Blast_example.sh.
 
 
 #===========================================================================================================================================================================================
